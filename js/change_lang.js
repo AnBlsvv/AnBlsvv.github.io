@@ -1,6 +1,6 @@
 
 
-$('[lang="ru"]').hide();
+$('[lang="en"]').hide();
 
 $('#lang-switch').change(function () {
   var lang = $(this).val();
@@ -15,6 +15,6 @@ $('#lang-switch').change(function () {
       break;
     default:
       $('[lang]').hide();
-      $('[lang="en"]').show();
+      $('[lang="ru"]').show();
   }
 });
