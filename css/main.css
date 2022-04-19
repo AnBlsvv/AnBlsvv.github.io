@@ -691,10 +691,11 @@ label.valid{
 
 @media(max-width:780px) {
 
+/*
     .sticky-wrapper{
         display: none;
     }
-
+*/
 }
 
 @media  (max-width: 479px) {
@@ -705,28 +706,27 @@ label.valid{
 
     #page-welcome header p {
         font-size: 1em;
-       line-height: 3em;
+        line-height: 3em;
     }
-       .section-title {
+    .section-title {
         font-size: 1.5em;
+    }
 
-        }
-
-        .section-header p {
+    .section-header p {
         font-size: 1.2em;
-        }
+    }
 
-        #page-skills{
-             text-align: center;
-        }
+    #page-skills{
+         text-align: center;
+    }
 
-        #grid{
-            text-align: center;
-        }
+    #grid{
+        text-align: center;
+    }
 
-          #page-profile .profile{
-    margin:0 auto 20px auto;
-  }
+    #page-profile .profile{
+        margin:0 auto 20px auto;
+    }
   
    
 
