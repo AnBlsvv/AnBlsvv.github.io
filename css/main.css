@@ -691,11 +691,9 @@ label.valid{
 
 @media(max-width:780px) {
 
-/*
     .sticky-wrapper{
         display: none;
     }
-*/
 }
 
 @media  (max-width: 479px) {
