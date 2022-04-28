@@ -663,7 +663,10 @@ label.valid{
 
 @media(max-width:780px) {
 
-    .sticky-wrapper{
+   /* .sticky-wrapper{
+        display: none;
+    }*/
+    .nav li:not(.switch){
         display: none;
     }
 }
