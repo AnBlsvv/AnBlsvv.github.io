@@ -6,7 +6,6 @@ a:link,a:visited,.navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>.active>a:hover, 
 .navbar-default .navbar-nav>.active>a:focus{
 	color:#f1c40f;
-	/*color: black;*/
 }
 
 .spacer,.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus,#grid .mix .overlay {
