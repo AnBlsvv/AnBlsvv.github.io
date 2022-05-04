@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/LGameWebGL.loader.js";
+      var loaderUrl = buildUrl + "/EduKidsWebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/LGameWebGL.data.gz",
-        frameworkUrl: buildUrl + "/LGameWebGL.framework.js.gz",
-        codeUrl: buildUrl + "/LGameWebGL.wasm.gz",
+        dataUrl: buildUrl + "/EduKidsWebGL.data.unityweb",
+        frameworkUrl: buildUrl + "/EduKidsWebGL.framework.js.unityweb",
+        codeUrl: buildUrl + "/EduKidsWebGL.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Anna Belousova",
         productName: "EDUKids",
@@ -85,7 +85,7 @@
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
-      canvas.style.background = "url('" + buildUrl + "/LGameWebGL.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/EduKidsWebGL.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
