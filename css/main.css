@@ -502,8 +502,8 @@ section {
 .spacer {
     width: 100px;
     height: 2px;
-    margin: auto;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
+   /* margin-bottom: 30px;*/
 }
 /*
 .section-subtitle {
