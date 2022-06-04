@@ -76,16 +76,15 @@ background-color: transparent;
 /* ==========================================================================
   Layout 
    ========================================================================== */
-
 #lang-switch{
     margin-top: 13px;
     margin-left: 20px;
 }
-
+/*
 .social-icons{
     height: 500px;
 }
-
+*/
 .md-trigger{
     border: none;
     display: inline-block;
@@ -216,9 +215,13 @@ background-color: transparent;
     background-size: cover;
 }
 
+#page-welcome .row{
+    margin-top: 5%;
+}
+
 #page-welcome header{
     color:#000;
-    padding-top:7%;
+    padding-top:20%;
 
 }
 
@@ -229,7 +232,7 @@ background-color: transparent;
     font-weight: 700;
     letter-spacing: 0.1em;
     line-height: 1em;
-   text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 #page-welcome header p{
@@ -500,13 +503,14 @@ section {
     width: 100px;
     height: 2px;
     margin: auto;
+    margin-bottom: 30px;
 }
-
+/*
 .section-subtitle {
     text-align: center;
     padding:30px 0;
 }
-
+*/
 
 /* ==========================================================================
    Forms
@@ -518,7 +522,7 @@ section {
 }
 
 .btn.btn-default{
-    margin: 40px auto 0;
+    /*margin: 40px auto 0;*/
     background:transparent;
     position: relative;
     /*color: #fff;*/
@@ -580,13 +584,12 @@ label.valid{
    Social icons
    ========================================================================== */
 
-.social-icons .btn{
-    /*margin-right: 15px;
-    margin-left: 15px;*/
-    margin: 15px;
-}
+/*.social-icons .btn{
+    margin: 10px;
+}*/
 
 .social-icons img{
+    /*float: left;*/
     height: 60vh;
 }
 
@@ -595,9 +598,24 @@ label.valid{
     padding-top: 10px;
     margin-bottom: 35px;
 }*/
+/*
 .social-icons .btn.btn-clear{
     border: 1px solid #000;
 }
+
+*/
+
+
+header .btn{
+    margin: 15px;
+}
+
+header .btn.btn-clear{
+    border: 1px solid #000;
+}
+
+
+
 
 .btn-round{
     border-radius: 50%;
@@ -665,13 +683,17 @@ label.valid{
     margin:0 auto 20px auto;
   }
 
+    #page-welcome header {
+        padding: 0;
+    }
+    #page-welcome header h1 {
+        font-size: 3em;
+        padding:0 0 10px 0;
+    }
+
 }
 
 @media(max-width:780px) {
-
-   /* .sticky-wrapper{
-        display: none;
-    }*/
     .nav li:not(.switch){
         display: none;
     }
@@ -679,9 +701,9 @@ label.valid{
 
 @media  (max-width: 479px) {
     
-    #page-welcome header h1 {
+    /*#page-welcome header h1 {
         font-size: 2em;
-    }
+    }*/
 
     #page-welcome header p {
         font-size: 1em;
