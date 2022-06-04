@@ -76,7 +76,7 @@ background-color: transparent;
 /* ==========================================================================
   Layout 
    ========================================================================== */
-.centered h1 {
+header h1 {
     padding-bottom: 20px;
 }
 
@@ -113,6 +113,7 @@ background-color: transparent;
     max-height: 700px;
     /*height: auto;*/
     height: 70%;
+    overflow-x: scroll;
     z-index: 2000;
     visibility: hidden;
     -webkit-backface-visibility: hidden;
