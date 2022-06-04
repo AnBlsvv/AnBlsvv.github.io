@@ -159,8 +159,9 @@ background-color: transparent;
     overflow-y: scroll;*/
 }
 
-.md-content .large{
-    height: 500px;
+.md-content.large{
+    /*height: 500px;*/
+    height: 70vh;
     overflow-y: scroll;
 }
 
