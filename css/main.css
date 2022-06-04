@@ -694,6 +694,9 @@ header .btn.btn-clear{
         height: 100%;
         overflow-y: hidden;
     }
+    .education, .experience, .page-profile{
+        text-align: center;
+    }
 
 }
 
