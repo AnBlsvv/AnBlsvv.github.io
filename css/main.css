@@ -120,7 +120,8 @@ background-color: transparent;
 }
 
 .md-modal img {   
-    max-height: 1100px;
+   /* max-height: 1100px;*/
+   max-height: 70%;
 }
 
 .md-show {
