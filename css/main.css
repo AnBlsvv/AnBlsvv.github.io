@@ -169,6 +169,7 @@ background-color: transparent;
     margin: 0;
     font-weight: 300;
     font-size: 1.5em;
+    overflow-x: scroll;
 }
 
 .md-content > div p {
@@ -231,7 +232,7 @@ background-color: transparent;
 
 #page-welcome header h1{
     margin: 0;
-    padding: 0 0 0 50px;
+    padding: 0 0 50px 0;
     font-size: 4.5em;
     font-weight: 700;
     letter-spacing: 0.1em;
