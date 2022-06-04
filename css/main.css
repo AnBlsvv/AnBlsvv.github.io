@@ -110,7 +110,6 @@ background-color: transparent;
     max-height: 700px;
     /*height: auto;*/
     height: 70%;
-    overflow-x: scroll;
     z-index: 2000;
     visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -125,6 +124,7 @@ background-color: transparent;
 .md-modal img {   
    /* max-height: 1100px;*/
    max-height: 700px;
+
 }
 
 .md-show {
@@ -159,6 +159,7 @@ background-color: transparent;
     /*border-radius: 3px;*/
     margin: 0 auto;
     text-align: center;
+    overflow-x: scroll;
 }
 
 
