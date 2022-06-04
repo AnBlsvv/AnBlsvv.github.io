@@ -107,9 +107,7 @@ background-color: transparent;
     width: 50%;
     max-width: 1000px;
     min-width: 320px;
-    max-height: 700px;
-    /*height: auto;*/
-    height: 70%;
+    height: auto;
     z-index: 2000;
     visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -122,8 +120,7 @@ background-color: transparent;
 }
 
 .md-modal img {   
-   /* max-height: 1100px;*/
-   max-height: 700px;
+    max-height: 1100px;
 
 }
 
@@ -159,7 +156,8 @@ background-color: transparent;
     /*border-radius: 3px;*/
     margin: 0 auto;
     text-align: center;
-    /*overflow-y: scroll;*/
+    /*height: 700px;*/
+    overflow-y: scroll;
 }
 
 
@@ -169,7 +167,7 @@ background-color: transparent;
     margin: 0;
     font-weight: 300;
     font-size: 1.5em;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
 }
 
 .md-content > div p {
