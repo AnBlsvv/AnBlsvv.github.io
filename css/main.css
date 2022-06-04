@@ -153,10 +153,10 @@ background-color: transparent;
     color: #000;
     background: #fff;
     position: relative;
-    /*border-radius: 3px;*/
     margin: 0 auto;
     text-align: center;
     /*height: 700px;*/
+    height: 90%;
     overflow-y: scroll;
 }
 
