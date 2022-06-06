@@ -588,7 +588,7 @@ label.valid{
     margin: 10px;
 }*/
 
-.social-icons img{
+.cv_photo img{
     /*float: left;*/
     height: 60vh;
 }
@@ -670,8 +670,6 @@ header .btn.btn-clear{
     float: none;
 }
 
-
-
 /* ==========================================================================
    Responsive Settings
    ========================================================================== */
@@ -697,7 +695,6 @@ header .btn.btn-clear{
     .education, .experience, .page-profile{
         text-align: center;
     }
-
 }
 
 @media(max-width:780px) {
@@ -707,11 +704,6 @@ header .btn.btn-clear{
 }
 
 @media  (max-width: 479px) {
-    
-    /*#page-welcome header h1 {
-        font-size: 2em;
-    }*/
-
     #page-welcome header p {
         font-size: 1em;
         line-height: 3em;
@@ -734,9 +726,7 @@ header .btn.btn-clear{
 
     #page-profile .profile{
         margin:0 auto 20px auto;
-    }
-  
-   
+    }  
 
 }
 
