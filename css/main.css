@@ -228,7 +228,7 @@ background-color: transparent;
     display: inline-block;
     margin-bottom: 5px;
     padding: 0 8px;
-     letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
     line-height: 3em;
     text-transform: uppercase;
 }
@@ -558,7 +558,7 @@ header .btn.btn-clear{
     }
     #page-welcome header h1 {
         font-size: 3em;
-        padding:0 0 10px 0;
+        padding:0 0 5px 0;
     }
     .md-content.large{
         height: 100%;
@@ -578,7 +578,7 @@ header .btn.btn-clear{
 @media  (max-width: 479px) {
     #page-welcome header p {
         font-size: 1em;
-        line-height: 3em;
+        line-height: 2em;
     }
     .section-title {
         font-size: 1.5em;
@@ -599,7 +599,9 @@ header .btn.btn-clear{
     #page-profile .profile{
         margin:0 auto 20px auto;
     }  
-
+    header .btn {
+        margin-top: 0;
+    }
 }
 
 
