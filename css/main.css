@@ -599,8 +599,12 @@ header .btn.btn-clear{
     #page-profile .profile{
         margin:0 auto 20px auto;
     }  
-    header .btn {
+    /*header .btn {
         margin-top: 0;
+    }
+    */
+    .cv_photo img{
+        height: 40vh;
     }
 }
 
