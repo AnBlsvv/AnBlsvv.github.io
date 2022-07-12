@@ -577,8 +577,8 @@ header .btn.btn-clear{
 
 @media  (max-width: 479px) {
     #page-welcome header p {
-        font-size: 1em;
-        line-height: 2em;
+        font-size: 2em;
+        line-height: 2.5em;
     }
     .section-title {
         font-size: 1.5em;
@@ -598,11 +598,8 @@ header .btn.btn-clear{
 
     #page-profile .profile{
         margin:0 auto 20px auto;
-    }  
-    /*header .btn {
-        margin-top: 0;
-    }
-    */
+    } 
+
     .cv_photo img{
         height: 40vh;
     }
