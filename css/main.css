@@ -474,8 +474,7 @@ label.valid{
    ========================================================================== */
 
 .cv_photo img{
-    /*float: left;*/
-    height: 60vh;
+    height: 50vh;
 }
 
 header .btn{
