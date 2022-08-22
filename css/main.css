@@ -705,6 +705,7 @@ header .btn.btn-clear{
     font-weight: 300;
   }
   
+  /*
   @media screen and (max-width: 64rem){
     .col{
       width: calc(33.333333% - 2rem);
@@ -723,6 +724,7 @@ header .btn.btn-clear{
       margin: 0 0 2rem 0;
     }
   }
+  */
 /* ==========================================================================
    Responsive Settings
    ========================================================================== */
@@ -748,11 +750,18 @@ header .btn.btn-clear{
     .education, .experience, .page-profile{
         text-align: center;
     }
+
+    .col{
+      width: calc(50% - 2rem);
+    }
 }
 
 @media(max-width:780px) {
     .nav li:not(.switch){
         display: none;
+    }
+    .col{
+      width: calc(50% - 2rem);
     }
 }
 
@@ -783,6 +792,11 @@ header .btn.btn-clear{
 
     .cv_photo img{
         height: 40vh;
+    }
+
+    .col{
+      width: 100%;
+      margin: 0 0 2rem 0;
     }
 }
 
