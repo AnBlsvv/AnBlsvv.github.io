@@ -17,3 +17,4 @@ $('#lang-switch').change(function () {
       $('[lang="en"]').show();
   }
 });
+

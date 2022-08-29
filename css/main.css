@@ -592,7 +592,7 @@ header .btn.btn-clear{
     min-height: 280px;
     height: auto;
     border-radius: 10px;
-    /*color: #fff;*/
+    background: #F1C40F;
     color: #000;
     font-size: 2.7em; /* for back side */
   }
@@ -614,7 +614,6 @@ header .btn.btn-clear{
       content: '';
       display: block;
       opacity: .6;
-      /*background-color: #000;*/
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       border-radius: 10px;
@@ -680,8 +679,6 @@ header .btn.btn-clear{
   }
   
   .front .inner p{
-    /*font-size: 3rem;*/
-    /*font-size: 1.7em;*/
     margin-bottom: 2rem;
     position: relative;
   }
@@ -700,32 +697,15 @@ header .btn.btn-clear{
     bottom: -.75rem;
   }
   
+  /*
   .front .inner span{
     color: rgba(255,255,255,0.7);
     font-family: 'Montserrat';
     font-weight: 300;
   }
-  
-  /*
-  @media screen and (max-width: 64rem){
-    .col{
-      width: calc(33.333333% - 2rem);
-    }
-  }
-  
-  @media screen and (max-width: 48rem){
-    .col{
-      width: calc(50% - 2rem);
-    }
-  }
-  
-  @media screen and (max-width: 32rem){
-    .col{
-      width: 100%;
-      margin: 0 0 2rem 0;
-    }
-  }
   */
+
+
 /* ==========================================================================
    Responsive Settings
    ========================================================================== */
@@ -757,10 +737,12 @@ header .btn.btn-clear{
     }
 }
 
-@media(max-width:780px) {
+@media(max-width:1000px) {
+/*@media(max-width:780px) {*/
     .nav li:not(.switch){
         display: none;
     }
+
     .col{
       width: calc(50% - 2rem);
     }
@@ -771,6 +753,7 @@ header .btn.btn-clear{
         font-size: 1.5em;
         line-height: 2.5em;
     }
+
     .section-title {
         font-size: 1.5em;
     }
