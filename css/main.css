@@ -201,6 +201,7 @@ background-color: transparent;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-top: 10%;
 }
 
 #page-welcome .row{
@@ -209,7 +210,7 @@ background-color: transparent;
 
 #page-welcome header{
     color:#000;
-    padding-top:10%;
+    padding-top:30%;
 
 }
 
