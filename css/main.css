@@ -696,26 +696,15 @@ header .btn.btn-clear{
     margin: 0 auto;
     bottom: -.75rem;
   }
-  
-  /*
-  .front .inner span{
-    color: rgba(255,255,255,0.7);
-    font-family: 'Montserrat';
-    font-weight: 300;
-  }
-  */
 
 /* ==========================================================================
     Language Switcher
    ========================================================================== */
 
 .toggleWrapper {
-  /*position: absolute;*/
   top: 50%;
   left: 50%;
   overflow: hidden;
-  /*padding: 0 200px;*/
-  /*transform: translate3d(-50%, -50%, 0);*/
   margin-top: 10%;
 }
 .toggleWrapper input {
@@ -811,7 +800,7 @@ input:checked + .toggle .toggle__handler {
     }
 
     .col{
-      width: calc(50% - 2rem);
+        width: calc(50% - 2rem);
     }
 }
 
@@ -828,7 +817,7 @@ input:checked + .toggle .toggle__handler {
     }
 
     .col{
-      width: calc(50% - 2rem);
+        width: calc(50% - 2rem);
     }
 }
 
@@ -863,8 +852,16 @@ input:checked + .toggle .toggle__handler {
     }
 
     .col{
-      width: 100%;
-      margin: 0 0 2rem 0;
+          width: 100%;
+          margin: 0 0 2rem 0;
+    }
+
+    .toggleWrapper {
+        margin-top: 5%;
+    }
+
+    #page-welcome{
+        padding-top: 5px;
     }
 }
 
