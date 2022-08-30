@@ -210,7 +210,7 @@ background-color: transparent;
 
 #page-welcome header{
     color:#000;
-    padding-top:30%;
+    padding-top:20%;
 
 }
 
@@ -705,6 +705,84 @@ header .btn.btn-clear{
   }
   */
 
+/* ==========================================================================
+    Language Switcher
+   ========================================================================== */
+
+.toggleWrapper {
+  /*position: absolute;*/
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  padding: 0 200px;
+  /*transform: translate3d(-50%, -50%, 0);*/
+  margin-top: 10%;
+}
+.toggleWrapper input {
+  position: absolute;
+  left: -99em;
+}
+
+.toggle {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  width: 90px;
+  height: 50px;
+  background-color: #83d8ff;
+  border-radius: 84px;
+  background: #cedce7;
+  background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+  background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+  background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+}
+.toggle:before {
+  content: "EN";
+  position: absolute;
+  left: -50px;
+  top: 15px;
+  font-size: 18px;
+}
+.toggle:after {
+  content: "RU";
+  position: absolute;
+  right: -48px;
+  top: 15px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.toggle__handler {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  top: 3px;
+  left: -20px;
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: rotate(-45deg);
+}
+
+input:checked + .toggle {
+    background: #cedce7;
+    background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+    background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+    background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+}
+input:checked + .toggle:before {
+  color: #fff;
+}
+input:checked + .toggle:after {
+  color: #000;
+}
+input:checked + .toggle .toggle__handler {
+  background-color: #fff;
+  transform: translate3d(40px, 0, 0) rotate(0);
+}
 
 /* ==========================================================================
    Responsive Settings
@@ -737,9 +815,11 @@ header .btn.btn-clear{
     }
 }
 
-@media(max-width:1000px) {
-/*@media(max-width:780px) {*/
-    .nav li:not(.switch){
+@media(max-width:780px) {
+    /*.nav li:not(.switch){
+        display: none;
+    }*/
+    .navbar{
         display: none;
     }
 
