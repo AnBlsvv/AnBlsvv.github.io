@@ -869,6 +869,11 @@ input:checked + .toggle .toggle__handler {
     #page-welcome{
         padding-top: 5px;
     }
+
+    .nav{
+        padding-left: 20%;
+        padding-right: 10%;
+    }
 }
 
 
