@@ -871,7 +871,7 @@ input:checked + .toggle .toggle__handler {
     }
 
     .nav{
-        padding-left: 20%;
+        padding-left: 25%;
         padding-right: 10%;
     }
 }
