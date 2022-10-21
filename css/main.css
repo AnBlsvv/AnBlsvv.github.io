@@ -200,7 +200,7 @@ h1,h2,h3,h4,h5,h6{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 #page-welcome .row{
@@ -209,7 +209,7 @@ h1,h2,h3,h4,h5,h6{
 
 #page-welcome header{
     color:#000;
-    padding-top:20%;
+    /*padding-top:20%;*/
 
 }
 
@@ -807,6 +807,14 @@ input:checked + .toggle .toggle__handler {
     .col{
         width: calc(50% - 2rem);
     }
+
+    .toggleWrapper {
+        margin-top: 2%;
+    }
+
+    #page-welcome{
+        padding-top: 2%;
+    }
 }
 
 @media(max-width:780px) {
@@ -824,6 +832,7 @@ input:checked + .toggle .toggle__handler {
     .col{
         width: calc(50% - 2rem);
     }
+
 }
 
 @media  (max-width: 479px) {
@@ -859,10 +868,6 @@ input:checked + .toggle .toggle__handler {
     .col{
           width: 100%;
           margin: 0 0 2rem 0;
-    }
-
-    .toggleWrapper {
-        margin-top: 5%;
     }
 
     #page-welcome{
