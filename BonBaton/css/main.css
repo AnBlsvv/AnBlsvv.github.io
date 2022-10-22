@@ -738,3 +738,11 @@ footer{
     width: 50%;
   }
 } 
+
+@media screen and (max-width: 1250px) {
+  .slick-prev:before, .slick-next:before {
+    content: none;
+  }
+}
+
+
